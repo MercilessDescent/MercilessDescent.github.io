@@ -6,13 +6,13 @@ html {
 }
 
 body {
-  font-family: 'Montserrat', sans-serif;
+  font-family: 'Frijole', cursive;
 }
 
 hr {
   max-width: 65px;
   border-width: 3px;
-  border-color: #F05F44; 
+  border-color: #b30000; 
 }
 
 .faded {
@@ -21,25 +21,26 @@ hr {
 
 header.startup {
   background-position: center;
-  background-image: url("header.jpg");
+  background-image: url("majinvegeta.jpg");
   background-size: cover;
   height: 100%;
 }
 
 header.startup hr {
-  margin-top: 200px;
+  margin-top: 50px;
   margin-bottom: 30px; 
 }
 
 header.startup h1 {
-  font-size: 2rem; 
+  font-size: 3rem; 
+  color: red;
 }
 
 .btn {
   font-weight: 700;
   text-transform: uppercase;
   border-radius: 300px;
-  font-family: 'Montserrat', sans-serif;
+  font-family: 'Frijole', cursive;
 }
 
 .btn-xl {
@@ -47,12 +48,13 @@ header.startup h1 {
 }
 
 .btn-primary {
-  background-color: #F05F44;
-  border-color: #F05F44; }
+  background-color: #b30000;
+  border-color: #b30000; }
 
 .btn-primary:hover {
-  background-color: #ee4b08;
-  border-color: #ee4b08;
+  background-color: #660000;
+  border-color: #660000;
+  color :#000000;
   border-width: 5px;
   cursor: pointer;
 }
